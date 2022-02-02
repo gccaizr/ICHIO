@@ -1,2 +1,3 @@
 # ICHIO
-Improved metaheuristics
+Improved metaheuristics  
+Run the main file directly, you can perform synchronization operations
