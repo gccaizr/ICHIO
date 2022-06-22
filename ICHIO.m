@@ -154,8 +154,8 @@ function [Best_pos,Best_score,CHIO_curve]=ICHIO(SearchAgents_no,Max_iteration,lb
                    end
               end
           
-              CHIO_curve(itr) = Best_score;
-              disp(['第' num2str(itr) '次迭代适应度值：' num2str(Best_score)])
+           CHIO_curve(itr) = Best_score; 
+          Best_score=Best_score
       end
   
 end
